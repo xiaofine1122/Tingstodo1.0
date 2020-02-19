@@ -1,0 +1,118 @@
+@import '~antd/dist/antd.css';
+
+body {
+  background-color: rgba(255, 255, 255,0.8);
+  border: 1px solid rgba(0,0,0,.1);
+}
+.menu{
+  -webkit-app-region:drag;
+  height: 20px;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.0);
+}
+
+.todolist{
+  margin:  0px 10px 0px 10px;
+}
+
+.listheader{
+  font-size: 15px;
+  color: #26a2ff;
+}
+
+.ant-list-bordered .ant-list-header{
+  padding: 0px;
+}
+.ant-list-bordered{
+  border: none;
+}
+
+.ant-list-header{
+  /* padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px; */
+  padding: 0px;
+}
+.ant-list-bordered .ant-list-item {
+  padding: 0px;
+}
+
+.ant-input{
+  background-color: rgba(255, 255, 255,0.6);
+  
+}
+.ant-input::-webkit-input-placeholder{
+  color: #26a2ff;
+  font-size: 18px;
+}
+
+.ant-list-item{
+  background-color: rgba(255, 255, 255,0.6);
+  min-height: 25px;
+  /* margin: 0; */
+  margin-top: 5px;
+}
+.container .ant-list-item{
+  box-shadow: 6px 6px 11px 0 hsla(0,0%,56%,.8);
+}
+ul{
+  margin:auto;
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+.todoitems{
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+  width: 100%;
+  -ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+}
+.checkbox{
+  -ms-flex: 1 1;
+	flex: 1 1;
+}
+.edittext{
+  -ms-flex: 5 1;
+	flex: 20 1;
+	-ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.CTE--input{
+  width: 100%;
+}
+.CTE--wrapper.edittext{
+  width: 100%;
+}
+li .edittext{
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.CTE--text{
+  max-width: 100%;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.play{
+  cursor:pointer;
+  justify-content: flex-end;
+  -ms-flex: 1 1;
+  flex: 1 1;
+	-ms-flex-pack: end;
+	justify-content: flex-end
+}
+
+.lock{
+  cursor:pointer;
+}
+.linethrough{
+  text-decoration: line-through;
+  color: rgba(0,0,0,.4);
+}
